@@ -1,0 +1,41 @@
+# LeadFlow
+
+**Purpose:**
+A simple conversational lead-collection backend that talks to users, understands what type of lead they are, collects the important details, and stores them in a structured way.
+
+### Lead Types
+
+* **HR →** Job/hiring lead
+* **Applicant →** Candidate/job lead
+* **Company →** Business lead
+* **Customer →** Customer enquiry
+
+### Flow
+
+```text
+User
+ ↓
+Chatbot
+ ↓
+Identify user type
+ ↓
+Ask relevant questions
+ ↓
+Collect & store answers
+ ↓
+Create Lead
+```
+
+### Technology
+
+```text
+React Native App
+        ↓
+Node.js + Express
+        ↓
+JavaScript Lead/Conversation Logic
+        ↓
+Database
+```
+
+The goal is to make it feel like a **simple WhatsApp-style conversation**, rather than a traditional form.
